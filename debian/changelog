@@ -1,3 +1,9 @@
+spreedbox-owncloud-theme (0.0.3) trusty; urgency=low
+
+  * Use official app links.
+
+ -- Joachim Bauch <bauch@struktur.de>  Thu, 14 Jan 2016 16:41:36 +0100
+
 spreedbox-owncloud-theme (0.0.2) trusty; urgency=low
 
   [ Leon Klingele ]
