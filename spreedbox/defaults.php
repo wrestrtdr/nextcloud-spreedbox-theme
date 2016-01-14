@@ -39,7 +39,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getiOSClientUrl() {
-		return 'https://itunes.apple.com/us/app/webrtc/id828333357';
+		return 'https://itunes.apple.com/us/app/owncloud/id543672169?mt=8';
 	}
 
 	/**
@@ -47,7 +47,7 @@ class OC_Theme {
 	 * @return string AppId
 	 */
 	public function getiTunesAppId() {
-		return '828333357';
+		return '543672169';
 	}
 
 	/**
@@ -55,7 +55,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getAndroidClientUrl() {
-		return 'https://www.spreed.me/download/';
+		return 'https://play.google.com/store/apps/details?id=com.owncloud.android';
 	}
 
 	/**
