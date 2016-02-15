@@ -1,3 +1,10 @@
+spreedbox-owncloud-theme (0.0.4) trusty; urgency=low
+
+  * Show spreedbox-specific message for untrusted domains (FS#3383).
+  * Example configuration is in /usr/share/doc
+
+ -- Joachim Bauch <bauch@struktur.de>  Mon, 15 Feb 2016 17:50:07 +0100
+
 spreedbox-owncloud-theme (0.0.3) trusty; urgency=low
 
   * Use official app links.
