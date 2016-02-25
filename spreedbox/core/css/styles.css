@@ -97,6 +97,10 @@ button.primary:focus,
 	color: #fff;
 }
 
+#body-login p.info {
+	padding-top: 10px;
+}
+
 #body-login {
 	padding-top: 0;
 	margin-top: -50px;
@@ -115,7 +119,6 @@ button.primary:focus,
 	box-orient: horizontal;
 	box-pack: center;
 	box-align: center;
-	margin: 0 auto -85px auto;
 }
 
 #body-login #header {
@@ -180,8 +183,4 @@ html:not(.ie8) input[type="checkbox"].checkbox--white:checked + label::before {
 
 #body-login .push {
 	display: none;
-}
-
-#body-login footer {
-	margin-top: 50px;
 }
