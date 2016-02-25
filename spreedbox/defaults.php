@@ -119,7 +119,7 @@ class OC_Theme {
 	 * @return string short footer
 	 */
 	public function getShortFooter() {
-		$footer = '© ' . date('Y') . ' <a href="' . $this->getBaseUrl() . '" target="_blank\">' .
+		$footer = '© ' . date('Y') . ' <a href="' . $this->getBaseUrl() . '" target="_blank">' .
 		$this->getEntity() . '</a>' . '<br/>' . $this->getSlogan();
 
 		return $footer;
@@ -130,7 +130,7 @@ class OC_Theme {
 	 * @return string long footer
 	 */
 	public function getLongFooter() {
-		$footer = '© ' . date('Y') . ' <a href="' . $this->getBaseUrl() . '" target="_blank\">' .
+		$footer = '© ' . date('Y') . ' <a href="' . $this->getBaseUrl() . '" target="_blank">' .
 		$this->getEntity() . '</a>' . '<br/>' . $this->getSlogan();
 
 		return $footer;
