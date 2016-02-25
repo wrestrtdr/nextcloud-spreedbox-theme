@@ -1,3 +1,14 @@
+spreedbox-owncloud-theme (0.0.5) trusty; urgency=low
+
+  [ Joachim Bauch ]
+  * Added license text.
+
+  [ Leon Klingele ]
+  * Fix target
+  * Add 'Iridium Browser' download link to login screen. Partial fix for FS#3416
+
+ -- Joachim Bauch <bauch@struktur.de>  Thu, 25 Feb 2016 14:31:11 +0100
+
 spreedbox-owncloud-theme (0.0.4) trusty; urgency=low
 
   * Show spreedbox-specific message for untrusted domains (FS#3383).
