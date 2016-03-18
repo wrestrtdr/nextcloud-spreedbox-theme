@@ -1,3 +1,9 @@
+spreedbox-owncloud-theme (0.0.7) trusty; urgency=low
+
+  * Added noscript warning template from ownCloud, logs error on login page otherwise.
+
+ -- Joachim Bauch <bauch@struktur.de>  Fri, 18 Mar 2016 17:57:01 +0100
+
 spreedbox-owncloud-theme (0.0.6) trusty; urgency=low
 
   [ Leon Klingele ]
