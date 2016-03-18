@@ -1,3 +1,10 @@
+spreedbox-owncloud-theme (0.0.6) trusty; urgency=low
+
+  [ Leon Klingele ]
+  * Update link to Iridium Browser download page as they don't want it themselves
+
+ -- Joachim Bauch <bauch@struktur.de>  Fri, 18 Mar 2016 14:22:10 +0100
+
 spreedbox-owncloud-theme (0.0.5) trusty; urgency=low
 
   [ Joachim Bauch ]
