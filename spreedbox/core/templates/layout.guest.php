@@ -44,7 +44,7 @@
 		</div>
 		<footer role="contentinfo">
 			<p class="info iridium">
-				<a href="https://iridiumbrowser.de/download" target="_blank">Download Iridium Secure Browser</a>
+				<a href="https://iridiumbrowser.de/download.html" target="_blank">Download Iridium Secure Browser</a>
 			</p>
 			<p class="info">
 				<?php print_unescaped($theme->getLongFooter()); ?>
