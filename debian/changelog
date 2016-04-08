@@ -1,3 +1,10 @@
+spreedbox-owncloud-theme (0.0.8) trusty; urgency=low
+
+  [ Leon Klingele ]
+  * Use Spreed.ME iOS app id instead of the default (ownCloud) one
+
+ -- Joachim Bauch <bauch@struktur.de>  Fri, 08 Apr 2016 12:13:41 +0200
+
 spreedbox-owncloud-theme (0.0.7) trusty; urgency=low
 
   * Added noscript warning template from ownCloud, logs error on login page otherwise.
