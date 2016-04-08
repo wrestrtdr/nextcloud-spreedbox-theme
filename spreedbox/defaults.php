@@ -23,7 +23,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getBaseUrl() {
-		return 'https://www.spreed.me/spreedbox/';
+		return 'https://owncloud.org/';
 	}
 
 	/**
@@ -71,7 +71,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getTitle() {
-		return 'Spreedbox';
+		return 'ownCloud';
 	}
 
 	/**
@@ -79,7 +79,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getName() {
-		return 'Spreedbox';
+		return 'ownCloud';
 	}
 
 	/**
@@ -87,7 +87,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getHTMLName() {
-		return 'Spreedbox';
+		return 'ownCloud';
 	}
 
 	/**
@@ -95,7 +95,7 @@ class OC_Theme {
 	 * @return string entity name
 	 */
 	public function getEntity() {
-		return 'struktur AG';
+		return 'ownCloud';
 	}
 
 	/**
@@ -103,7 +103,7 @@ class OC_Theme {
 	 * @return string slogan
 	 */
 	public function getSlogan() {
-		return 'Most private video chat and file exchange';
+		return 'web services under your control';
 	}
 
 	/**
