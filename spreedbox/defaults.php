@@ -39,7 +39,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getiOSClientUrl() {
-		return 'https://itunes.apple.com/us/app/owncloud/id543672169?mt=8';
+		return 'https://itunes.apple.com/app/spreed.me/id1058498417?mt=8';
 	}
 
 	/**
@@ -47,7 +47,7 @@ class OC_Theme {
 	 * @return string AppId
 	 */
 	public function getiTunesAppId() {
-		return '543672169';
+		return '1058498417';
 	}
 
 	/**
