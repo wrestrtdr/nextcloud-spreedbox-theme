@@ -95,7 +95,7 @@ class OC_Theme {
 	 * @return string entity name
 	 */
 	public function getEntity() {
-		return 'ownCloud';
+		return '';
 	}
 
 	/**
@@ -103,7 +103,7 @@ class OC_Theme {
 	 * @return string slogan
 	 */
 	public function getSlogan() {
-		return 'web services under your control';
+		return '';
 	}
 
 	/**
@@ -119,10 +119,7 @@ class OC_Theme {
 	 * @return string short footer
 	 */
 	public function getShortFooter() {
-		$footer = '© ' . date('Y') . ' <a href="' . $this->getBaseUrl() . '" target="_blank">' .
-		$this->getEntity() . '</a>' . '<br/>' . $this->getSlogan();
-
-		return $footer;
+		return '';
 	}
 
 	/**
@@ -130,10 +127,7 @@ class OC_Theme {
 	 * @return string long footer
 	 */
 	public function getLongFooter() {
-		$footer = '© ' . date('Y') . ' <a href="' . $this->getBaseUrl() . '" target="_blank">' .
-		$this->getEntity() . '</a>' . '<br/>' . $this->getSlogan();
-
-		return $footer;
+		return '';
 	}
 
 	public function buildDocLinkToKey($key) {
