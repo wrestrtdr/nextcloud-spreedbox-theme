@@ -130,10 +130,6 @@ class OC_Theme {
 		return '';
 	}
 
-	public function buildDocLinkToKey($key) {
-		return $this->getDocBaseUrl() . '/server/8.0/go.php?to=' . $key;
-	}
-
 	/**
 	 * Returns mail header color
 	 * @return string
