@@ -1,3 +1,10 @@
+spreedbox-owncloud-theme (0.0.13) trusty; urgency=low
+
+  [ Leon Klingele ]
+  * Use 'Spreedbox' as page title
+
+ -- Joachim Bauch <bauch@struktur.de>  Tue, 24 May 2016 16:56:14 +0200
+
 spreedbox-owncloud-theme (0.0.12) trusty; urgency=low
 
   [ Leon Klingele ]
