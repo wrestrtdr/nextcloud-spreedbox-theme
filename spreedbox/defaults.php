@@ -71,7 +71,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getTitle() {
-		return 'ownCloud';
+		return 'Spreedbox';
 	}
 
 	/**
