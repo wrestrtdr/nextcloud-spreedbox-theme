@@ -12,7 +12,7 @@ Standards-Version: 3.9.3
 Package: spreedbox-owncloud-theme
 Architecture: all
 Depends:
- owncloud,
  ${misc:Depends}
+Provides: owncloud-spreedbox-theme
 Description: Owncloud theme for a Spreedbox
  This package installs the Owncloud theme for a Spreedbox.
