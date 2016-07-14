@@ -1,2 +1,2 @@
-spreedbox	usr/lib/owncloud/www/themes
-debian/theme.config.php	etc/owncloud
+spreedbox	usr/lib/nextcloud/www/themes
+debian/theme.config.php	etc/nextcloud

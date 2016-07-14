@@ -1,4 +1,4 @@
-Source: spreedbox-owncloud-theme
+Source: nextcloud-spreedbox-theme
 Section: utils
 Priority: extra
 Maintainer: struktur AG <opensource@struktur.de>
@@ -9,10 +9,11 @@ Build-Depends:
  dpkg-dev (>= 1.16.1~)
 Standards-Version: 3.9.3
 
-Package: spreedbox-owncloud-theme
+Package: nextcloud-spreedbox-theme
 Architecture: all
 Depends:
  ${misc:Depends}
-Provides: owncloud-spreedbox-theme
-Description: Owncloud theme for a Spreedbox
- This package installs the Owncloud theme for a Spreedbox.
+Recommends:
+ spreedbox-nextcloud
+Description: Nextcloud theme for the Spreedbox
+ This package installs the Spreedbox Nextcloud theme.

@@ -1,1 +1,1 @@
-# This is the Owncloud theme for a Spreedbox.
+# This is the Nextcloud theme for a Spreedbox.
