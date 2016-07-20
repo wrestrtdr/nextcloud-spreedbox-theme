@@ -23,7 +23,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getBaseUrl() {
-		return 'https://owncloud.org/';
+		return 'https://nextcloud.com';
 	}
 
 	/**
@@ -31,7 +31,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getSyncClientUrl() {
-		return 'https://owncloud.org/install';
+		return 'https://nextcloud.com/install';
 	}
 
 	/**
@@ -55,7 +55,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getAndroidClientUrl() {
-		return 'https://play.google.com/store/apps/details?id=com.owncloud.android';
+		return 'https://play.google.com/store/apps/details?id=com.nextcloud.client';
 	}
 
 	/**
@@ -63,7 +63,7 @@ class OC_Theme {
 	 * @return string URL
 	 */
 	public function getDocBaseUrl() {
-		return 'https://doc.owncloud.org';
+		return 'https://doc.nextcloud.org';
 	}
 
 	/**
@@ -79,7 +79,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getName() {
-		return 'ownCloud';
+		return 'Nextcloud';
 	}
 
 	/**
@@ -87,7 +87,7 @@ class OC_Theme {
 	 * @return string title
 	 */
 	public function getHTMLName() {
-		return 'ownCloud';
+		return 'Nextcloud';
 	}
 
 	/**
