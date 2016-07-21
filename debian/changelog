@@ -1,3 +1,9 @@
+nextcloud-spreedbox-theme (0.0.3) trusty; urgency=medium
+
+  * Remove printcssfiles which is unsupported in NC9
+
+ -- Simon Eisenmann <simon@struktur.de>  Thu, 21 Jul 2016 17:32:52 +0200
+
 nextcloud-spreedbox-theme (0.0.2) trusty; urgency=medium
 
   * More Nextcloud branding fortheme defaults
