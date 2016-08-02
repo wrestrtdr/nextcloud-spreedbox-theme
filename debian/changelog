@@ -1,3 +1,9 @@
+nextcloud-spreedbox-theme (0.0.4) trusty; urgency=medium
+
+  * Fix docs links
+
+ -- Simon Eisenmann <simon@struktur.de>  Tue, 02 Aug 2016 14:43:15 +0200
+
 nextcloud-spreedbox-theme (0.0.3) trusty; urgency=medium
 
   * Remove printcssfiles which is unsupported in NC9
