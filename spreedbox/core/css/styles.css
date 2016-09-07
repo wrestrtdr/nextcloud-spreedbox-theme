@@ -184,3 +184,8 @@ html:not(.ie8) input[type="checkbox"].checkbox--white:checked + label::before {
 #body-login .push {
 	display: none;
 }
+
+#body-login #adminaccount .strengthify-wrapper {
+	display: block;
+	top: -7px;
+}
