@@ -162,7 +162,7 @@ button.primary:focus,
 	color: rgb(85, 85, 85) !important;
 }
 
-html:not(.ie8) input[type="checkbox"].checkbox + label::before {
+input[type="checkbox"].checkbox + label::before {
 	background-position: -2px;
 	background-color: rgb(85, 85, 85);
 	background-size: 18px;
@@ -172,11 +172,11 @@ html:not(.ie8) input[type="checkbox"].checkbox + label::before {
 	height: 14px;
 }
 
-html:not(.ie8) input[type="checkbox"].checkbox--white + label::before {
+input[type="checkbox"].checkbox--white + label::before {
 	background-image: url('/core/img/actions/checkbox.svg');
 }
 
-html:not(.ie8) input[type="checkbox"].checkbox--white:checked + label::before {
+input[type="checkbox"].checkbox--white:checked + label::before {
 	background-size: 16px;
 	background-position: -1px -1px;
 }
