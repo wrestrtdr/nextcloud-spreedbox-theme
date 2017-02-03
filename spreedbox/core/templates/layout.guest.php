@@ -50,8 +50,8 @@
 			</div>
 		</div>
 		<footer role="contentinfo">
-			<p class="info iridium">
-				<a href="https://iridiumbrowser.de/downloads/" target="_blank">Download Iridium Secure Browser</a>
+			<p class="info spreed-download">
+				<a href="https://www.spreed.me/download/" target="_blank">Download Spreed Desktop apps / Iridium Secure Browser</a>
 			</p>
 			<p class="info">
 				<?php print_unescaped($theme->getLongFooter()); ?>
