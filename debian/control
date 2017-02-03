@@ -12,6 +12,7 @@ Standards-Version: 3.9.3
 Package: nextcloud-spreedbox-theme
 Architecture: all
 Depends:
+ nextcloud (>= 11.0.0),
  ${misc:Depends}
 Recommends:
  spreedbox-nextcloud
