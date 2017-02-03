@@ -1,3 +1,10 @@
+nextcloud-spreedbox-theme (0.2.0) trusty; urgency=medium
+
+  * Updated guest template for Nextcloud 11.
+  * Need at least Nextcloud 11 for "getContentSecurityPolicyNonceManager".
+
+ -- Joachim Bauch <bauch@struktur.de>  Fri, 03 Feb 2017 08:59:25 +0100
+
 nextcloud-spreedbox-theme (0.1.0) trusty; urgency=medium
 
   [ Simon Eisenmann ]
