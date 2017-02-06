@@ -1,3 +1,10 @@
+nextcloud-spreedbox-theme (0.2.2) trusty; urgency=medium
+
+  [ Leon Klingele ]
+  * Update 'Download' link once again
+
+ -- Joachim Bauch <bauch@struktur.de>  Mon, 06 Feb 2017 08:40:33 +0100
+
 nextcloud-spreedbox-theme (0.2.1) trusty; urgency=medium
 
   * Update iridium-browser download URL.
