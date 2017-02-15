@@ -5,7 +5,7 @@ case "$1" in
     configure)
         if [ ! -z $2 ]; then
             if dpkg --compare-versions $2 lt 0.2.3 ; then
-                echo "Removing broken theming cache ..."
+                echo "Removing old theming cache ..."
                 rm -rf /var/lib/nextcloud/data/appdata_*/theming
             fi
         fi
