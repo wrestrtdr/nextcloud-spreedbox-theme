@@ -1,3 +1,9 @@
+nextcloud-spreedbox-theme (0.2.4) trusty; urgency=medium
+
+  * Don't remove old theme cache - causes breakage because references are stored in the DB.
+
+ -- Joachim Bauch <bauch@struktur.de>  Wed, 15 Feb 2017 12:08:11 +0100
+
 nextcloud-spreedbox-theme (0.2.3) trusty; urgency=medium
 
   [ Leon Klingele ]
