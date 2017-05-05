@@ -189,3 +189,7 @@ input[type="checkbox"].checkbox--white:checked + label::before {
 	display: block;
 	top: -7px;
 }
+
+#body-login #jsxc_alt a {
+        color: #000;
+}
