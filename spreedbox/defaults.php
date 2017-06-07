@@ -131,11 +131,29 @@ class OC_Theme {
 	}
 
 	/**
-	 * Returns mail header color
+	 * Returns mail header color (Nextcloud 11)
 	 * @return string
 	 */
 	public function getMailHeaderColor() {
 		return '#67c7e3';
+	}
+
+	/**
+	 * Returns mail header color (Nextcloud 12)
+	 * @return string
+	 */
+	public function getColorPrimary() {
+		return '#67c7e3';
+	}
+
+	/**
+	 * Returns variables to overload defaults from core/css/variables.scss
+	 * @return array
+	 */
+	public function getScssVariables() {
+		return [
+			'color-primary' => '#67c7e3'
+		];
 	}
 
 }
