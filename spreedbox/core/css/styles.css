@@ -81,7 +81,7 @@ button.primary:focus,
 	height: 121px;
 }
 #header .logo-icon {
-	background-image: url('../img/logo-icon.svg');
+	background-image: url('../img/logo-icon.svg') !important;
 	width: 62px;
 	height: 34px;
 }
