@@ -1,3 +1,9 @@
+nextcloud-spreedbox-theme (0.3.3) trusty; urgency=medium
+
+  * Fix style of checkbox on login page.
+
+ -- Joachim Bauch <bauch@struktur.de>  Tue, 13 Jun 2017 17:02:22 +0200
+
 nextcloud-spreedbox-theme (0.3.2) trusty; urgency=medium
 
   * Add logo with black text.
