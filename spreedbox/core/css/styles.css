@@ -165,7 +165,7 @@ button.primary:focus,
 
 input[type="checkbox"].checkbox + label::before {
 	background-position: -2px;
-	background-color: rgb(85, 85, 85);
+	border-color: rgb(85, 85, 85) !important;
 	background-size: 18px;
 	margin-top: -1px;
 	margin-right: 4px;
@@ -175,6 +175,10 @@ input[type="checkbox"].checkbox + label::before {
 
 input[type="checkbox"].checkbox--white + label::before {
 	background-image: url('/core/img/actions/checkbox.svg');
+}
+
+input[type="checkbox"].checkbox--white + label:hover::before {
+	border-color: rgb(85, 85, 85) !important;
 }
 
 input[type="checkbox"].checkbox--white:checked + label::before {
