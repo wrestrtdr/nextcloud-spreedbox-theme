@@ -2,5 +2,9 @@
 
 include /usr/share/dpkg/default.mk
 
+override_dh_install:
+	dh_install
+	install -m644 -D spreedbox/core/css/styles.css $(CURDIR)/debian/nextcloud-spreedbox-theme/usr/lib/nextcloud/www/themes/spreedbox/core/css/server.css
+
 %:
 	dh $@
