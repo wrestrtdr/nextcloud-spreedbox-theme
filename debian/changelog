@@ -1,3 +1,13 @@
+nextcloud-spreedbox-theme (0.3.2) trusty; urgency=medium
+
+  * Add logo with black text.
+  * Use logo with black text on login screen.
+  * Fix style to also work with Nextcloud 12.
+  * Need to install styles as "server.css" to make them work with Nextcloud 12.
+  * Fix logo icon on Nextcloud 12.
+
+ -- Joachim Bauch <bauch@struktur.de>  Tue, 13 Jun 2017 12:33:56 +0200
+
 nextcloud-spreedbox-theme (0.3.1) trusty; urgency=medium
 
   * The logo should be white text.
