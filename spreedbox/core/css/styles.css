@@ -28,14 +28,15 @@
 /* gradient of the header color and a brighter shade */
 /* can also be a flat color or an image */
 #body-login {
-	background: #67c7e3; /* Old browsers */
-	background: -moz-linear-gradient(top, #fff 0%, #67c7e3 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#67c7e3)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #fff 0%,#67c7e3 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #fff 0%,#67c7e3 100%); /* Opera11.10+ */
-	background: -ms-linear-gradient(top, #fff 0%,#67c7e3 100%); /* IE10+ */
-	background: linear-gradient(top, #fff 0%,#67c7e3 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#67c7e3',GradientType=0 ); /* IE6-9 */
+	background-image: none !important;
+	background: #67c7e3 !important; /* Old browsers */
+	background: -moz-linear-gradient(top, #fff 0%, #67c7e3 100%) !important; /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#67c7e3)) !important; /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #fff 0%,#67c7e3 100%) !important; /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #fff 0%,#67c7e3 100%) !important; /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #fff 0%,#67c7e3 100%) !important; /* IE10+ */
+	background: linear-gradient(top, #fff 0%,#67c7e3 100%) !important; /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#67c7e3',GradientType=0 ) !important; /* IE6-9 */
 }
 
 /* primary action button, use sparingly */
@@ -75,7 +76,7 @@ button.primary:focus,
 
 /* use logos from theme */
 #header .logo {
-	background-image: url('../img/logo-black.svg');
+	background-image: url('../img/logo-black.svg') !important;
 	width: 250px;
 	height: 121px;
 }
@@ -179,6 +180,8 @@ input[type="checkbox"].checkbox--white + label::before {
 input[type="checkbox"].checkbox--white:checked + label::before {
 	background-size: 16px;
 	background-position: -1px -1px;
+	background-color: #0082c9 !important;
+	background-image: url('/core/img/actions/checkbox-mark.svg');
 }
 
 #body-login .push {
